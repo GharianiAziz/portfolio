@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mon CV - Contact</title>
+    <link rel="stylesheet" href="css_moncv.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Contactez-moi</h1>
+            <nav>
+                <ul>
+                    <li><a href="acceuil.html">Accueil</a></li>
+                    <li><a href="les_expérience.html">Parcours Académique</a></li>
+                    <li><a href="le_parcour.html">Expériences</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section>
+        <h2>Formulaire de Contact</h2>
+        <div>
+            <!-- ✅ Formulaire connecté à ton e-mail avec Formspree -->
+   <form action="https://formspree.io/f/mwpwgbbk" method="POST">
+    <label for="name">Nom :</label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="prenom">Prénom :</label>
+    <input type="text" id="prenom" name="prenom" required><br><br>
+
+    <label for="email">Email :</label>
+    <input type="email" id="email" name="_replyto" required><br><br>
+
+    <label for="message">Message :</label>
+    <textarea id="message" name="message" required></textarea><br><br>
+
+    <button type="submit">Envoyer</button>
+</form>
+
+        </div>
+    </section>
+    
+    <footer>
+        <p>© 2024 MOHAMED AZIZ GHARIANI. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
